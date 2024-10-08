@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.divFormulario{
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-right: 5em;
+}
+
+.divFormulario__Contacto{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 1em;
+    width: 47em;
+    height: 10em;
+    background-color: #000a2f;
+    margin: 3em 4em;
+    
+}
+
+
+.contactoNumero, .contactoEmail{
+    margin-left: 2.5em;
+    font-size: 1.5em;
+}
+
+
+.direccionCalle,.direccionLocalidad{
+    margin-right: 3.2em;
+    font-size: 1.2em;
+    color: rgb(222, 218, 236);
+}
+

@@ -1,0 +1,22 @@
+.containerRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.containerRed{
+    width: 16%;
+    height: 100%;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.containerRed span{
+    font-size: 3em;
+    color: white;
+}

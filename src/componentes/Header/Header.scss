@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.bg-header{
+    background-color:  #000a2f;
+
+    .header-container{ 
+
+        width:  100%;
+        padding:  35px 0;
+        font-family: "Roboto Condensed", sans-serif;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content:  space-evenly;
+        align-items: center;
+
+        .header-title{
+
+            color: white;
+            font-size: 30px;
+            font-weight:  700;
+            text-decoration: none;
+
+        }
+
+        .header-navbar{
+
+            width: 70%;   
+            display: flex;
+            justify-content: flex-end;
+
+
+            .header-navList{
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 60%;
+
+                text-decoration: none;
+                list-style: none;
+
+                .header-navListItem{
+
+                    &:hover .header-navlink::before{
+                        width: 50%;
+                        transform: translateX(100%);
+                    }
+
+                    .header-navlink{
+
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: white;
+                        text-decoration: none;
+                        text-align: center;
+                        text-transform: uppercase;
+                        position: relative;
+        
+                        &::before{
+                            content: '';
+                            width: 0px;
+                            height: 5px;
+                            background: white;
+                            position: absolute;
+                            top: 100%;
+                            left: 0;
+                            transition: .5s;
+                            border-radius: 7px;
+                        }
+        
+                    }
+
+                }
+                                
+            }
+
+        }   
+        
+    }
+
+}
+
+
+

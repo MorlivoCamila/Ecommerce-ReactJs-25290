@@ -1,0 +1,10 @@
+.counter-disable{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.buttonsCounter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
